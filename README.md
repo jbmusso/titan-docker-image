@@ -7,8 +7,10 @@ Image that contains only Titan.
 To start titan, you must use:
 
 ```
-docker run titan /run.sh
+docker run titan /opt/titan/bin/start.sh
 ```
+
+*Why? Because Titan is a daemon and the container will stop if you use just the `titan.sh start` command.*
 
 ## Use titan command line
 
