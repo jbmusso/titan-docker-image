@@ -21,7 +21,7 @@ RUN curl -o /opt/titan/bin/gremlin.sh https://gist.githubusercontent.com/dkuppit
 WORKDIR /opt/titan
 
 # Add run.
-ADD start.sh /opt/titan/bin
+ADD ./start.sh /opt/titan/bin/
 
 # Expose ports.
 EXPOSE 8182 8184
